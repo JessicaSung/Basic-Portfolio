@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
@@ -10,35 +12,38 @@
 	<!-- header section 1: topnav -->
 	<header>
 		<!-- name -->
-		<div>Jessica Sung</div>
+		<h2>Jessica Sung</h2>
 
 		<!-- pages -->
-		<div>
-			<a href="index.html">About</a> |
-			<a href="portfolio.html">Portfolio</a> |
+		<div class="links">
+			<a href="index.html">About</a>  &nbsp;&nbsp;|&nbsp;&nbsp;
+			<a href="portfolio.html">Portfolio</a>  &nbsp;&nbsp;|&nbsp;&nbsp;
 			<a href="contact.html">Contact</a>
 		</div>
 
 	</header>
 
 
-	
+<!-- main div containing body without footer -->
+<div class="container">
 
 	
 
 
-	<!-- section 2: main -->
-	<section>
+	<!-- section 2: main contains about me, image, blurb-->
+	<section class="main">
 		<h1>About Me</h1>
 
 		<!-- div: image and blurb. use gray bottom border. parent and child the two divs on the section -->
 		<div>
 
 			<!-- Profile image -->
-			<img src="assets/images/flower.jpg">
+			<img src="assets/images/flower.jpg" alt="flowers">
 
 			<!-- Blurb -->
-			<p>Hello! My name's Jessica and I find coding extremely fun. Other than gaming, there's nothing that captivates and drives me more than tweaking code. Developers say the most important part in learning to code is to spend thousands of hours coding. At first, this seemed like a daunting task! How many <emphasis>years</emphasis> would it take for me to complete the first thousand hours? After some practice, I'm delighted to find that the hours fly by and the "Aha!" moment I feel after the struggle is priceless.</p>
+			<p>Hello! My name's Jessica and I find coding extremely fun. Other than gaming, there's nothing that captivates and drives me more than tweaking code. Developers say the most important part in learning to code is to spend thousands of hours coding. At first, this seemed like a daunting task! How many years would it take for me to complete the first thousand hours? After some practice, I'm delighted to find that the hours fly by and the "Aha!" moment I feel after the struggle is priceless.</p>
+
+				<br>
 
 			<p>I'm currently studying HTML and CSS. In fact, this webpage was solely created with these two. Next, I'll be working with Heroku and Bootstrap responsive design. I can't wait to work with templates for speed, but I'm enjoying my moment of tweaking, for now. Check out my portfolio and let me know what you think with the links at the top.</p>
 
@@ -51,19 +56,23 @@
 
 
 	<!-- section 3: sidebar -->
-	<section>
+	<section class="side">
 		<h3>Connect with Me</h3>
 
 		<!-- div for social links -->
 		<div>
 
 			<!-- social links here -->
-			<img src="assets/images/github.png"><img src="assets/images/linkedin.png"><img src="assets/images/twitter.png">
+			<img src="assets/images/github.png" alt="github icon">
+			<img src="assets/images/linkedin.png" alt="linkedin icon">
+			<img src="assets/images/twitter.png" alt="twitter icon">
 
 		</div>
 
 	</section>
 
+
+</div>
 
 
 	<footer>Copyright 2016 Jessica Sung</footer>
