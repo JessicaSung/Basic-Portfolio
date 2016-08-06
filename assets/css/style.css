@@ -44,6 +44,7 @@ header {
 footer {
 	background-color: #666666;
 	clear: both;
+	border-top: 5px solid #4aaaa5;
 }
 
 
@@ -76,10 +77,28 @@ a {
 .side {
 	width: 270px;
 	float: left;
-	background-color: red;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
 /*.container {
 	box-sizing: border-box;
 	margin: auto;
 } */
+
+.icon {
+	height: 55px;
+	width: 55px;
+}
+
+
+/* border3 is the thin line above social links */
+.border3 {
+	border-top: 1px solid #dddddd;
+}
+
+
+#profile {
+	float: left;
+}
