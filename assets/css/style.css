@@ -127,8 +127,9 @@ input[type=text] {
 }
 
 .image {
-	width: 250px;
+	width: 280px;
 	height: 200px;
+	float: left;
 }
 
 
@@ -169,3 +170,7 @@ input[type=text] {
 	margin-right: 20px;
 }
 
+/* used for spacing between images/projects on portfolio page */
+.spacing {
+	margin-right: 40px;
+}
