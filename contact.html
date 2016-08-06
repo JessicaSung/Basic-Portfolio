@@ -11,15 +11,17 @@
 <body>
 	<!-- section 1: NavBar -->
 	<header>
+
+		<!-- name -->
 		<h2>Jessica Sung</h2>
 
-
-		<div>
-			<a href="index.html">About</a> |
-			<a href="portfolio.html">Portfolio</a> |
+		<!-- pages -->
+		<div class="links">
+			<a href="index.html">About</a>  &nbsp;&nbsp;|&nbsp;&nbsp;
+			<a href="portfolio.html">Portfolio</a>  &nbsp;&nbsp;|&nbsp;&nbsp;
 			<a href="contact.html">Contact</a>
 		</div>
-
+	
 	</header>
 
 
@@ -33,24 +35,30 @@
 	<section class="main">
 		<h1>Contact</h1>
 
-		<!-- start form here -->
-		<form>
-			Name
-				<br>
-			<input type="text" name="name">
-				<br>
-			Email
-				<br>
-			<input type="text" name="email">
-				<br>
-			Message
-				<br>
-			<input type="text" name="message">
-				<br>			
-		</form>	
+		<!-- content -->
+		<div class="content">
 
-		<!-- submit button -->
-		<button>Submit</button>
+			<!-- start form here -->
+			<form>
+				Name
+					<br>
+				<input type="text" name="name" placeholder="John Smith">
+					<br><br>
+				Email
+					<br>
+				<input type="text" name="email" placeholder="example@gmail.com">
+					<br><br>
+				Message
+					<br>
+				<input type="text" name="message" class="resize">
+					<br><br>		
+			</form>	
+
+			<!-- submit button -->
+			<input type="submit" name="Submit">
+			
+
+		</div>
 		
 	</section>
 
@@ -61,16 +69,16 @@
 
 
 	<!-- section 3: sidebar -->
-	<section class="side">
+	<section class="sidebar">
 		<h3>Connect with Me</h3>
 
 		<!-- div for social links -->
-		<div>
+		<div class="border3">
 
 			<!-- social links here -->
-			<img src="assets/images/github.png" alt="github icon">
-			<img src="assets/images/linkedin.png" alt="linkedin icon">
-			<img src="assets/images/twitter.png" alt="twitter icon">
+			<img src="assets/images/github.png" alt="github icon" class="icon">
+			<img src="assets/images/linkedin.png" alt="linkedin icon" class="icon">
+			<img src="assets/images/twitter.png" alt="twitter icon" class="icon">
 
 		</div>
 

@@ -76,6 +76,30 @@ a {
 	text-decoration: none !important;
 }
 
+input[type=submit] {
+	background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+	width: 600px;
+    padding: 12px 20px;
+    border: 1px solid #dddddd;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.resize {
+	resize: both;
+    overflow: auto;
+}
+
 .content {	
 	border-top: 2px solid #cccccc;
 	padding-top: 20px;
